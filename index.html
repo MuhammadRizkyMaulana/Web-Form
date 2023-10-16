@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="Mrm.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Membuat Form</title> 
+</head>
+<body style="background-color:aquamarine;"></body>
+<body>
+  <form>
+    <font color="blue" face="Arial" align="center">
+      <h1><b>Form Pendaftaran</b></h1>
+    </font>
+    <font color="black" face="Arial" align="center">
+    <p>Nama : Muhammad Rizky Maulana<br>NIM : 211011402201<br>Kelas : 05TPLE003</p></font>
+    <pre style="font-family: 'Times New Roman';" style="text-align: justify;">
+    <table border="0" width="50%" align="center" bgcolor="white" style="padding: 5%;"><br>
+    <tr>
+      <td>
+        NIM            : <input type="text" size="20" name="Nim"><br>
+        Nama          : <input type="text" size="25" name="Nama"><br>
+        Tgl Lahir     : <input type="text" size="3" name="Days"> / <input type="text" size="3" name="Mount"> / <input
+          type="text" size="3" name="Years"></input><br>
+        Jenis 
+        Kelamin      : <input type="radio" name="jkel" value="Pria">Pria   |  <input type="radio" name="jkel"
+          value="Wanita">Wanita<br>
+        Alamat        : <input type="text" name="alamat" style="padding: 4%;" size="26"><br>
+        Kota            : <input type="text" size="25" name="nama"><br>
+        Pekerjaan    : <select name="Pekerjaan">
+          <option value="Programmer">Programmer</option>
+          <option value="Katoholik">Pedagang</option>
+          <option value="Abdi Negara">Abdi Negara</option>
+          <option value="Fotografer">Fotografer</option>
+          <option value="Peneliti">Peneliti</option>
+        </select><br>
+        Agama        : <select name=agama>
+          <option value="Islam">Islam</option>
+          <option value="Katoholik">Katholik</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Budha">Budha</option>
+        </select><br>
+        Status          : <input type="radio" name="status" value="kawin">Kawin  | <input type="radio" name="status"
+          value="belumkawin">Belum Kawin<br>
+        Jurusan       : <select name="jurusan" Size="1">
+          <option value="Teknik Informatika"> Teknik Informatika </option>
+          <option value="Manajemen Informatika"> Manajemen Informatika </option>
+          <option value="Teknik Komputer"> Teknik Komputer </option>
+          <option value="Teknik Industri"> Teknik Industri </option>
+        </select><br>
+        Hoby          : <input type="checkbox" name="hoby" value="Sport">Sport
+                             <input type="checkbox" name="hoby" value="Traveling">Traveling
+                             <input type="checkbox" name="hoby" value="Reading">Reading
+                             <input type="checkbox" name="hoby" value="Singing">Singing
+        <br>
+        <textarea name="ket" rows="10" cols="40"></textarea>
+                   <input type="submit" value="kirim"> | <input type="reset" value="ulang">
+      </td>
+    </tr>
+    </pre>
+    </table>
+  </form>
+</body>
+</html>
